@@ -8,17 +8,19 @@
 }
 
 h1{
-    font-family: 'Yeseva One', cursive;
+    font-family: $tituloFuente;
     margin: 2%;
     padding: 1%;
     color: #9D705F;
 }
 p{
-    color:black
+    color:black;
+    font-family: $tituloFuente;
 }
 
 .titulosGenerales{
-    color:#9D705F
+    color:#9D705F;
+    font-family: $tituloFuente;
 }
 h2{
     margin: 1%;
@@ -34,6 +36,7 @@ h3{
 .descripcionProd{
     color: $colorTerciario;
     align-content: center;
+    font-family: $tituloFuente;
 }
 .tituloCep{
     color:#6d4535;
@@ -88,10 +91,15 @@ h3{
 }
 /* fuentes de texto */
 .materiales{
-    font-family: 'Yeseva One', cursive;
+    font-family: $tituloFuente;
     font-size: 15px;
 }
-
+.color-#9D705F{
+    font-family: $tituloFuente;
+}
+.color-#6d4535{
+    font-family: $tituloFuente;
+}
 /* Imagenes de inicio para aplicar grids */ 
 .destacados{
     display: grid;
@@ -106,6 +114,7 @@ h3{
 .destacados__titulos{
     color: black;
     text-align:start;
+    font-family: $tituloFuente;
 }
 
 /* transiciones */
@@ -175,7 +184,9 @@ h3{
         margin: 5px;
         justify-content: flex-start;
     }    
-    
+    header{
+        background-color: #9D705F;
+    }
 }    
  
 /* estilos con SASS */
