@@ -121,7 +121,7 @@ h3{
 .destacados .destacados__imagenes--prod{
     height: 200px; width: 200px;
 }
-.producInicio .destacados__imagenes--prod:hover{
+.destacados .destacados__imagenes--prod:hover{
 
     height: 300px; width: 300px;
 }
@@ -135,7 +135,7 @@ h3{
     grid-gap: 10px;
 }
 
-.productos__div--img{
+.destacados__imagenes--prod{
     width: 200px;
     height: 300px;
     object-fit: cover;
