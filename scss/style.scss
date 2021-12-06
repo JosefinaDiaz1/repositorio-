@@ -119,12 +119,11 @@ h3{
 
 /* transiciones */
 .destacados .destacados__imagenes--prod{
-    height: 200px; width: 200px;
+    height: 200px; 
+    width: 200px;
+    object-fit: cover;
 }
-.destacados .destacados__imagenes--prod:hover{
 
-    height: 300px; width: 300px;
-}
 
 /* imagenes seccion productos  */
 .productos{
@@ -135,7 +134,7 @@ h3{
     grid-gap: 10px;
 }
 
-.destacados__imagenes--prod{
+.productos__div--img{
     width: 200px;
     height: 300px;
     object-fit: cover;

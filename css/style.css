@@ -109,11 +109,8 @@ header {
 /* transiciones */
 .destacados .destacados__imagenes--prod {
   height: 200px;
-  width: 200px; }
-
-.destacados .destacados__imagenes--prod:hover {
-  height: 300px;
-  width: 300px; }
+  width: 200px;
+  object-fit: cover; }
 
 /* imagenes seccion productos  */
 .productos {
@@ -123,7 +120,7 @@ header {
   margin: 10px 10px 10px 70px;
   grid-gap: 10px; }
 
-.destacados__imagenes--prod {
+.productos__div--img {
   width: 200px;
   height: 300px;
   object-fit: cover; }
