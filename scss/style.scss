@@ -26,12 +26,17 @@ h2{
     margin: 1%;
     padding: 1%;
     color:#9D705F;
+    font-family: $tituloFuente;
 }
 
 h3{
     color: #6d4535;
     margin: 1%;
     padding: 1%;
+}
+h4{
+    color: black;
+    font-family: $tituloFuente;
 }
 .descripcionProd{
     color: $colorTerciario;
@@ -164,7 +169,10 @@ h3{
         margin: auto;
         justify-content: center;
         }
-      
+    .card-img-top {
+        width: 5rem;
+        height: 5rem;
+    }
  }    
 @media screen and (max-width:320px){
     .destacados{
@@ -183,9 +191,10 @@ h3{
         margin: 5px;
         justify-content: flex-start;
     }    
-    header{
-        background-color: #9D705F;
-    }
+    .card-img-top{
+        width: 5rem;
+        height: 5rem;
+    } 
 }    
  
 /* estilos con SASS */
@@ -219,4 +228,22 @@ p{
     margin: 50px;
 } 
 
+/* cards  */
 
+.card-img-top {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-group{
+    margin: auto;
+}
+/* button  */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: $colorSecundario;
+    border-color: $colorPrincipal;
+}
