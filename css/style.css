@@ -154,7 +154,10 @@ header {
     justify-content: center; }
   .card-img-top {
     width: 5rem;
-    height: 5rem; } }
+    height: 5rem; }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 320px) {
   .destacados {
@@ -172,7 +175,10 @@ header {
     justify-content: flex-start; }
   .card-img-top {
     width: 5rem;
-    height: 5rem; } }
+    height: 5rem; }
+  .card-group {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
 
 /* estilos con SASS */
 /* formulario seccion contacto */
